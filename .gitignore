@@ -1,0 +1,13 @@
+/.idea/
+crypto-commander.iml
+
+.DS_Store
+dist/
+node_modules/
+thumbs.db
+config.json
+
+#Databases for Electron
+/coins/
+/pools/
+/miners/

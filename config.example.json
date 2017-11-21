@@ -1,0 +1,66 @@
+{
+  "default": {
+    "api": {
+      "database": {
+        "protocol": "http://",
+        "host": "localhost:5984",
+        "user": "",
+        "password": "",
+        "userDB": "users",
+        "couchAuthDB": "_users"
+      },
+      "userDBs":{
+        "defaultDBs": {
+          "private": ["cc-data"]
+        }
+      }
+    }
+  },
+  "docker": {
+    "api":{
+      "database": {
+        "protocol": "http://",
+        "host": "couchdb:5984",
+        "user": "",
+        "password": "",
+        "userDB": "users",
+        "couchAuthDB": "_users"
+      },
+      "session": {
+        "adapter": "redis",
+        "redis": {
+          "port": 5984,
+          "host": "redis"
+        }
+      }
+    }
+  },
+  "production": {
+    "api":{
+      "mailer": {
+        "fromEmail": "commander@example.com",
+        "options": {
+          "service": "Gmail",
+          "auth": {
+            "user": "commander@example.com",
+            "pass": "commander"
+          }
+        }
+      },
+      "session": {
+        "adapter": "redis",
+        "redis": {
+          "port": 8102,
+          "host": "dynomite.example.com"
+        }
+      },
+      "database": {
+        "protocol": "https://",
+        "host": "example.cloudant.com",
+        "user": "cloudant",
+        "password": "password",
+        "userDB": "users"
+      }
+    }
+  }
+}

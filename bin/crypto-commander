@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var pkg = require('../package.json');
+var CryptoCommander = require('../src');
+const electroner = require("electroner");
+program
+    .version(pkg.version)
+    .option('-d, --daemon', 'Run commander in the background or to host your own node')
+    .option('-m, --miner', 'Enable/Disable Miner')
+    .option('-g, --gui', 'Change the User Interface')
+    .parse(process.argv);
+
+//
+
+
+// Start the Electron app
+// electroner(`${__dirname}/../dist/main/main.js`);
+console.log(`Crypto Commander v${pkg.version}:`);
+if (program.miner) console.log('');
+if (program.gui) console.log('  - bbq');
+if (program.daemon) CryptoCommander.api.listen(3000);
