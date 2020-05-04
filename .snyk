@@ -1,0 +1,121 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - superlogin > pouchdb > debug:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:extend:20180424':
+    - superlogin > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-gyp > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-ninja > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-gyp > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-ninja > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > request > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > superagent > extend:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:hoek:20180212':
+    - pouchdb > leveldown > prebuild > node-gyp > request > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-ninja > request > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-ninja > request > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-ninja > request > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-gyp > request > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-ninja > request > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-ninja > request > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-ninja > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-ninja > request > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-ninja > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-04T14:59:44.333Z'
+  SNYK-JS-LODASH-567746:
+    - swagger-client > lodash:
+        patched: '2020-05-04T14:59:44.333Z'
+    - swagger-client > isomorphic-form-data > form-data > async > lodash:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > form-data > async > lodash:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:mime:20170907':
+    - superlogin > superagent > mime:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:ms:20170412':
+    - superlogin > pouchdb > debug > ms:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:stringstream:20180511':
+    - pouchdb > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-gyp > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+    - pouchdb > leveldown > prebuild > node-ninja > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-gyp > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > leveldown > prebuild > node-ninja > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+    - superlogin > pouchdb > websql > sqlite3 > node-pre-gyp > request > stringstream:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:tough-cookie:20170905':
+    - superlogin > pouchdb > request > tough-cookie:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:tunnel-agent:20170305':
+    - superlogin > pouchdb > request > tunnel-agent:
+        patched: '2020-05-04T14:59:44.333Z'
+  'npm:uglify-js:20151024':
+    - jade > transformers > uglify-js:
+        patched: '2020-05-04T14:59:44.333Z'
