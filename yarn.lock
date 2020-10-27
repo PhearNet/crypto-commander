@@ -1878,10 +1878,6 @@ concat-map@0.0.1:
 concat-stream@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.5.0.tgz#53f7d43c51c5e43f81c8fdd03321c631be68d611"
-  dependencies:
-    inherits "~2.0.1"
-    readable-stream "~2.0.0"
-    typedarray "~0.0.5"
 
 concat-stream@1.6.0, concat-stream@^1.6.0:
   version "1.6.0"
@@ -8456,9 +8452,10 @@ swap-case@^1.1.0:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
 
-systeminformation@^3.33.6:
-  version "3.33.6"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-3.33.6.tgz#a0113488d26b5caa2380ae6c2cf6c485fdab2245"
+systeminformation@^4.27.11:
+  version "4.27.11"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-4.27.11.tgz#6dbe96e48091444f80dab6c05ee1901286826b60"
+  integrity sha512-U7bigXbOnsB8k1vNHS0Y13RCsRz5/UohiUmND+3mMUL6vfzrpbe/h4ZqewowB+B+tJNnmGFDj08Z8xGfYo45dQ==
 
 table@^4.0.1:
   version "4.0.2"
