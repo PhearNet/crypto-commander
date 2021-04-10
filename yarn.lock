@@ -8456,9 +8456,10 @@ swap-case@^1.1.0:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
 
-systeminformation@^3.33.6:
-  version "3.33.6"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-3.33.6.tgz#a0113488d26b5caa2380ae6c2cf6c485fdab2245"
+systeminformation@^5.6.11:
+  version "5.6.12"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.6.12.tgz#cdb8338eef48c219352d95f2b0839f9ad5399fae"
+  integrity sha512-prJAt+iS2ITeygjLt/FGtN1qsIQHrRePCUqWtP0hGv6JsS0LSQTR+y5hWAd4frUIM/sjG95jHFUK1gx244KwUA==
 
 table@^4.0.1:
   version "4.0.2"
