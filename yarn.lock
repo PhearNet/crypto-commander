@@ -6276,8 +6276,6 @@ path-type@^1.0.0:
 path-type@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz#f012ccb8415b7096fc2daa1054c3d72389594c73"
-  dependencies:
-    pify "^2.0.0"
 
 pause@0.0.1:
   version "0.0.1"
@@ -8456,9 +8454,10 @@ swap-case@^1.1.0:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
 
-systeminformation@^3.33.6:
-  version "3.33.6"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-3.33.6.tgz#a0113488d26b5caa2380ae6c2cf6c485fdab2245"
+systeminformation@^3.54.0:
+  version "3.54.0"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-3.54.0.tgz#4144fde583a67e351b501772169107ab56a46ec1"
+  integrity sha512-kWzMlMS4B2bz+b9qhmdrbdZZuVpf3LJr4lbIZbOVbfXlJLlPJLmoUlCy+2VmTd/ow1xZGUkaQNBSz0X19NViWA==
 
 table@^4.0.1:
   version "4.0.2"
