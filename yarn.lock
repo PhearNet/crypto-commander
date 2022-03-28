@@ -2801,9 +2801,10 @@ electron@^1.7.9:
     electron-download "^3.0.1"
     extract-zip "^1.0.3"
 
-electroner@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/electroner/-/electroner-4.0.5.tgz#fa593c35192705948f663948b77291e201c9ea07"
+electroner@^4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/electroner/-/electroner-4.0.9.tgz#f45e7143c2e79d0108b246c9d48df58c702fcb19"
+  integrity sha512-X4riDAfOv7cV0VtVDzphFRscywqahb7cIju9ivcCo5Tr0Fh8maPM9fmyrRixXDGl7/2MAWAlYR246rTHQgbWwA==
   dependencies:
     oargv "^3.4.1"
     spawno "^1.0.0"
