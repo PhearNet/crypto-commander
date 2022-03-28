@@ -28,7 +28,7 @@
     "electroner": "^4.0.5",
     "jade": "~1.11.0",
     "jquery": "^3.2.1",
-    "morgan": "~1.9.0",
+    "morgan": "~1.10.0",
     "popper.js": "^1.12.9",
     "pouchdb": "^6.3.4",
     "pouchdb-find": "^6.3.4",
