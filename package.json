@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "bin-manager": "^1.3.1",
-    "body-parser": "~1.18.2",
+    "body-parser": "~1.19.2",
     "bootstrap-material-design": "^4.0.0-beta.4",
     "commander": "^2.11.0",
     "cookie-parser": "~1.4.3",
