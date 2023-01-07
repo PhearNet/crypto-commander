@@ -39,7 +39,7 @@
     "superlogin-client": "^0.8.0",
     "swagger-client": "^3.3.4",
     "systeminformation": "^3.33.6",
-    "vue": "^2.5.8",
+    "vue": "^2.7.14",
     "vue-material": "github:vuematerial/vue-material",
     "vue-pouch": "0.0.23",
     "vue-router": "^3.0.1",
